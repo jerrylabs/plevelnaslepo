@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: home
+type: home
 ---
 
 # Plevel naslepo
