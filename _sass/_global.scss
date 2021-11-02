@@ -1,4 +1,38 @@
-html {
-  color: white;
-  background: black;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+html { font-size: 1.2rem; }
+
+@media (max-width: 1024px) {
+  html { font-size: 1.1rem; }
+}
+@media (max-width: 860px) {
+  html { font-size: 0.9rem; }
+}
+@media (max-width: 750px) {
+  html { font-size: 0.85rem; }
+}
+@media (max-width: 420px) {
+  html { font-size: 0.75rem; }
+}
+
+header {
+  height: 0;
+}
+
+body {
+  color: #4a4a4a;
+}
+
+a:hover {
+  color: #13aff0;
+}
+
+.main {
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  box-sizing: border-box;
 }

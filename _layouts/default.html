@@ -8,8 +8,8 @@
   <meta charset="utf-8">
   <link rel="canonical" href="http://www.blanksite.cz/">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="{{'assets/images/favicon.ico' | relative_url }}">
-  <title>Site title</title>
+  <link rel="shortcut icon" href="{{'assets/images/favicon.png' | relative_url }}">
+  <title>{{ page.title | default: "Plevel naslepo" }}</title>
   <meta name="description" content="Blanksite description">
   <meta name="author" content="Jaroslav Jerry Kameň">
   <link rel="stylesheet" href="{{'assets/css/main.css' | relative_url }}">
@@ -22,7 +22,13 @@
 
 <body>
 
-    {{ content }}
+<header>
+  {% include menu.html %}
+</header>
+
+<main class="main {{page.bodyClass}}">
+  {{ content }}
+</main>
 
 </body>
 

@@ -1,0 +1,36 @@
+.hlavni-menu {
+  background-color: #f9f9f9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  font-family: "Amatic Bold";
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #f1f1f1;
+  z-index: 100;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 22px;
+    display: inline-block;
+
+    &, &:active, &:visited {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: #13aff0;
+      text-decoration: none;
+    }
+  }
+}

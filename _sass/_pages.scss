@@ -1,0 +1,19 @@
+.home {
+  background: #efefeb url(../images/home_bg.jpg) center center / cover no-repeat;
+  padding: 25vh 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amalfi";
+
+  h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 10rem;
+  }
+
+  p {
+    margin: -4rem 0 0;
+    font-size: 6.2rem;
+  }
+}
