@@ -4,5 +4,9 @@ _site
 .jekyll-cache
 .bundle
 .vscode
+Gemfile
 Gemfile.lock
 vendor
+debug.log
+Dockerfile
+docker-compose.yml
