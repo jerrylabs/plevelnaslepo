@@ -33,4 +33,12 @@
       text-decoration: none;
     }
   }
+
+  @media (max-width: 860px) {
+    font-size: 1.5rem;
+
+    a {
+      padding: 0 5px;
+    }
+  }
 }
