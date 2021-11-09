@@ -26,6 +26,10 @@ body {
   color: #455b51;
 }
 
+a, a:visited {
+  color: #455b51;
+}
+
 a:hover {
   color: #13aff0;
 }
@@ -35,4 +39,7 @@ a:hover {
   min-height: calc(100vh - 60px);
   box-sizing: border-box;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

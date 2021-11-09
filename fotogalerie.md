@@ -4,7 +4,7 @@ type: gallery
 ---
 
 <h1>Fotogalerie</h1>
-<div class="gallery">
+<div class="photos">
   <div class="grid">
     <div class="grid-sizer"></div>
     {% for image in site.static_files %}

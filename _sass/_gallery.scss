@@ -1,16 +1,22 @@
 .gallery {
+  background-color: #efefeb;
+  box-sizing: border-box;
+  text-align: center;
+
+  h1 {
+    font-size: 0;
+    height: 16rem;
+    background: #efefeb url(../images/gallery_header.jpg) center center / contain no-repeat;
+    padding: 1rem 0;
+  }
+}
+
+.photos {
   width: 100%;
   max-width: 920px;
   margin: 0 auto;
   box-sizing: border-box;
   margin-bottom: 80px;
-
-  h1 {
-    font-size: 0;
-    width: 5rem;
-    height: 5rem;
-    background: #efefeb url(../images/gallery_header.jpg) center center / contain no-repeat;
-  }
 }
 
 .grid-item {

@@ -1,6 +1,5 @@
 .home {
   background: #efefeb url(../images/home_bg.jpg) center center / cover no-repeat;
-  padding: 25vh 0 0;
   box-sizing: border-box;
   text-align: center;
   font-family: "Amalfi";
@@ -45,10 +44,6 @@
     filter: blur(5px);
     position: absolute;
     z-index: -1;
-
-  &.contact {
-    font-size: 1.2rem;
-  }
 }
 
 
