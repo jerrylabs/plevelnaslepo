@@ -11,8 +11,8 @@ Plnou náruč květin Vám ráda předám osobně na Hrubé Vodě nebo v Olomouc
 
 Kolik PLEVEL NASLEPO stojí?
 
-Malá kytice 490 Kč
-Střední kytice 690 Kč
+Malá kytice 490 Kč  
+Střední kytice 690 Kč  
 Velká kytice 990 Kč
 
 (Ceny jsou orientační a jejich finální podoba se může mírně lišit dle využité květeny.)

@@ -18,6 +18,14 @@
   <meta property="og:url" content="http://www.blanksite.cz/">
   <meta property="og:image" content="{{'assets/images/blanksite-image.png' | relative_url }}">
   <meta property="og:description" content="Blanksite OG description">
+
+  {% if page.type == "gallery" %}
+  <link rel="stylesheet" id="jerrylabs_games-css" href="{{'assets/css/jquery.fancybox.min.css' | relative_url }}" type="text/css" media="all">
+  <script type="text/javascript" src="{{'assets/js/jquery-3.5.0.min.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{'assets/js/jquery.fancybox.min.js' | relative_url }}"></script>  
+  <script type="text/javascript" src="{{'assets/js/script.js' | relative_url }}"></script>
+  {% endif %}
+
 </head>
 
 <body>
