@@ -9,14 +9,17 @@
     text-transform: uppercase;
     margin: 0;
     font-size: 10rem;
-    @media (max-width: 460px) {
-      font-size: 9rem;
-    }
   }
 
   p {
     margin: -4rem 0 0;
     font-size: 6.2rem;
+  }
+
+  @media (max-width: 600px) and (orientation: portrait) {
+    background-image: url(../images/mobile_bg.jpg);
+    h1 { font-size: 7rem; }
+    p { margin-top: -2rem; font-size: 4.2rem; }
   }
 }
 
