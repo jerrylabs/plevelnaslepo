@@ -35,7 +35,7 @@
 </header>
 
 <main class="main {{page.type}}">
-  {{ content }}
+  {{ content | replace: "~", "&nbsp;" }}
 </main>
 
 </body>
