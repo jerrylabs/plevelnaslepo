@@ -14,8 +14,11 @@ html { font-size: 1.2rem; }
 @media (max-width: 750px) {
   html { font-size: 0.85rem; }
 }
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   html { font-size: 0.75rem; }
+}
+@media (max-width: 400px) {
+  html { font-size: 0.65rem; }
 }
 
 header {
