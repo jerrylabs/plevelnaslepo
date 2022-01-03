@@ -5,7 +5,7 @@ type: page
 
 # Jak mohu kytici objednat?
 
-Jelikož pracuji s~květinami z~vlastní zahrádky a~volné přírody, jejíž zdroje jsou omezené a~vázané na roční období, je potřeba poptávat soukromou zprávou, e-mailem či telefonicky s~týdenním předstihem, abych stihla potvrdit aktuální dostupnost materiálu.
+Jelikož pracuji s~květinami z~vlastní zahrádky a~volné přírody, jejíž zdroje jsou omezené a~vázané na roční období, je potřeba poptávat soukromou zprávou, e‑mailem či telefonicky s~týdenním předstihem, abych stihla potvrdit aktuální dostupnost materiálu.
 
 Plnou náruč květin Vám ráda předám osobně na Hrubé Vodě nebo v~Olomouci.
 

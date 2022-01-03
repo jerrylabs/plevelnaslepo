@@ -3,12 +3,6 @@ html, body {
   padding: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: -webkit-fill-available;
-}
-
 html { font-size: 1.2rem; }
 
 @media (max-width: 1024px) {
@@ -20,7 +14,7 @@ html { font-size: 1.2rem; }
 @media (max-width: 750px) {
   html { font-size: 0.85rem; }
 }
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   html { font-size: 0.75rem; }
 }
 @media (max-width: 360px) {
@@ -45,7 +39,7 @@ a:hover {
 
 .main {
   margin-top: 60px;
-  flex: 1 1 calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
   box-sizing: border-box;
   text-align: center;
   display: flex;
