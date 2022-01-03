@@ -3,7 +3,10 @@ html, body {
   padding: 0;
 }
 
-html { font-size: 1.2rem; }
+html {
+  font-size: 1.2rem;
+  height: -webkit-fill-available;
+}
 
 @media (max-width: 1024px) {
   html { font-size: 1.1rem; }
@@ -28,7 +31,7 @@ body {
 }
 
 header {
-  height: 0;
+  flex: 0 0 60px;
 }
 
 body {
@@ -44,8 +47,7 @@ a:hover {
 }
 
 .main {
-  margin-top: 60px;
-  flex: 1 1 calc(100vh - 60px);
+  flex: 1 0 auto;
   box-sizing: border-box;
   text-align: center;
   display: flex;
