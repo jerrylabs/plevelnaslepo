@@ -5,6 +5,7 @@
 - **Hlavní stránka** je v `index.md`
 - **Podstránky** jsou ostatní MD soubory, např. obsah stránky `/o-mne` je v souboru `o-mne.md`
 - **Obrázky** se nachází v `assets/images/`
+- **Hlavní menu** lze najít v `_includes/menu.html`, kde se dá měnit text či pořadí jednolitvých položek
 
 ## Markdown front matter
 
