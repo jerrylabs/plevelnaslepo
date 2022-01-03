@@ -20,7 +20,10 @@ html {
 @media (max-width: 500px) {
   html { font-size: 0.75rem; }
 }
-@media (max-width: 380px) {
+@media (max-width: 370px) {
+  html { font-size: 0.7rem; }
+}
+@media (max-width: 360px) {
   html { font-size: 0.65rem; }
 }
 
