@@ -21,6 +21,12 @@ html { font-size: 1.2rem; }
   html { font-size: 0.65rem; }
 }
 
+body {
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   height: 0;
 }
@@ -39,7 +45,7 @@ a:hover {
 
 .main {
   margin-top: 60px;
-  min-height: calc(100vh - 60px);
+  flex: 1 1 calc(100vh - 60px);
   box-sizing: border-box;
   text-align: center;
   display: flex;
