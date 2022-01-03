@@ -9,7 +9,7 @@
 
 ## Markdown front matter
 
-Metadata stránky sloužící k určení šablony a dalším technickým záležitostem se nacházejí na začátku HTML souborů mezi pomlčkami `---` a `---`. Doporučuji neměnit.
+Metadata stránky sloužící např. k určení šablony (`layout`), titulku stránky, příp. definici náhledů pro Facebook atp. se nacházejí na začátku HTML souborů mezi pomlčkami `---` a `---`. Na každém řádku se nachází název proměnné oddělené dvojtečkou od její hodnoty.
 
 ## Značky v markdownu
 
