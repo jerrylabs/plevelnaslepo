@@ -16,17 +16,21 @@ Zbytek MD souboru (pod druhým `---`) obsahuje text zobrazený na stránce form�
 
 ### Nadpisy
 
-Hlavní nadpis stránky vznikne tak, že se před něj umístí `# `. Před nadpis druhé třídy `## `, třetí `### ` atp. Hlavní nadpis např. tohoto návodu vypadá v Markdownu takto:
+Hlavní nadpis stránky vznikne tak, že se před něj umístí `# `. Před nadpis druhé třídy `## `, třetí `### ` atp. Např. nadpisy použité v tomto návodu vypadají v Markdownu takto:
 
 ```
 # Návod na editaci webu
+
+## Značky v markdownu
+
+### Nadpisy
 ```
 
 ### Odstavce
 
 Odstavce se vzájemně oddělují dvojitým enterem.
 
-### Zalomení řádku
+### Zalomení řádku v odstavci
 
 Řádkový zlom v rámci jednoho odstavce se vytvoří jedním enterem s tím, že na konci zalamovaného řádku se třeba napsat 2 mezery. Obyčejný enter Markdown velkoryse ignoruje.
 
@@ -42,20 +46,20 @@ Odkaz vypadá takto:
 [text odkazu](adresa odkazu)
 ```
 
-Např. `[odkaz na gůgl](https://www.google.com)` se zobrazí jako [odkaz na gůgl](https://www.google.com). Pokud chceme otvírat odkazy v novém okně (tabu), je třeba za něj přidat ještě `{:target="_blank"}` - např  `[odkaz na gůgl v novém okně](https://www.google.com){:target="_blank"}` se zobrazí jako [odkaz na gůgl v novém okně](https://www.google.com){:target="_blank"}.
+Např. `[odkaz na gůgl](https://www.google.com)` se zobrazí jako [odkaz na gůgl](https://www.google.com). Pokud chceme otvírat odkazy v novém okně (tabu), je třeba za něj přidat ještě `{:target="_blank"}` - např  `[odkaz na gůgl v novém okně](https://www.google.com){:target="_blank"}`.
 
 ### Seznamy
-Číslovaný seznam vznikne, když na začátek každého řádku dáme pomlčku (čísla se doplní automaticky). Položky nečíslovaného seznamu (s puntíky) začínají hvězdičkou. Příklady:
+Číslovaný seznam vznikne, když na začátek každého řádku číslo s tečkou (číslo může být jakékoliv, správné se automaticky). Položky nečíslovaného seznamu (s puntíky) začínají hvězdičkou. Příklady:
 
 ```
-- kytice
-- z údolí
-- Bystřice
+1. kytice
+1. z údolí
+1. Bystřice
 ```
 
-- kytice
-- z údolí
-- Bystřice
+1. kytice
+1. z údolí
+1. Bystřice
 
 ```
 * jedna
@@ -77,4 +81,4 @@ Např. `[odkaz na gůgl](https://www.google.com)` se zobrazí jako [odkaz na gů
 
 ### HTML
 
-V Markdownu by mělo fungovat i standardní HTML, čili všechno výše zmíněné formátování lze provést i standardními HMTL tagy jako `<a href="">`, `<ol>`, `<ul>`, `<p>`, `<b>`, `<br>`, atp.
+Bonus: V Markdownu by mělo fungovat i standardní HTML, čili všechno výše zmíněné formátování lze provést i standardními HMTL tagy jako `<a href="">`, `<ol>`, `<ul>`, `<p>`, `<b>`, `<br>`, atp.
