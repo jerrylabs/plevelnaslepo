@@ -1,0 +1,17 @@
+<div class="carousel">
+    {% for image in site.static_files %}
+        {% if image.path contains include.folder %}
+            <div class="carousel__slide" style="overscroll-behavior: auto">
+                <a class="grid-item" data-fancybox="foto" href="{{image.path | relative_url }}">
+                <img data-lazy-src="{{image.path | relative_url }}" alt="Fotka">
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+  </div>
+
+<script type="text/javascript">
+    const myCarousel = new Carousel(document.querySelector(".carousel"), {
+        'infinite' : false, 'center': true, 'fill' : false
+    });
+</script>

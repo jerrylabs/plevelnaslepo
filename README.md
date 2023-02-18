@@ -37,7 +37,7 @@ Odstavce se vzájemně oddělují dvojitým enterem.
 
 ### Nezalomitelná mezera
 
-Zabránit zalomení řádku za předložkou či spojkou lze provést tak, že se v MD souboru mezi předložku a následující slovo místo mezery umístí vlnovka `~`. Např. `S~láskou` zajistí, že "S" nikdy nezůstane samo na konci řádku. 
+Zabránit zalomení řádku za předložkou či spojkou lze provést tak, že se v MD souboru mezi předložku a následující slovo místo mezery umístí vlnovka `~`. Např. `S~láskou` zajistí, že "S" nikdy nezůstane samo na konci řádku.
 
 ### Odkazy
 
@@ -77,9 +77,14 @@ Např. `[odkaz na gůgl](https://www.google.com)` se zobrazí jako [odkaz na gů
 **Tučné písmo** ohraničíme dvěma hvězdičkami. *Kurzívu* jednou hvězdičkou. Zdrojový kód předchozích vět vypadá takto:
 
 ```
-**Tučné písmo** ohraničíme dvěma hvězdičkami. *Kurzívu* jednou hvězdičkou. 
+**Tučné písmo** ohraničíme dvěma hvězdičkami. *Kurzívu* jednou hvězdičkou.
 ```
 
 ### HTML
 
 Bonus: V Markdownu by mělo fungovat i standardní HTML, čili všechno výše zmíněné formátování lze provést i standardními HMTL tagy jako `<a href="">`, `<ol>`, `<ul>`, `<p>`, `<b>`, `<br>`, atp.
+
+### Galerie
+Galerie se na stránku vloží jako `{% include gallery.html folder="XXXX" %}`, kde `XXXX` je cesta k adresáři obsahující obrýzky, které se mají na daném místě v konkrétní galerii zobrazit. Např: `{% include gallery.html folder="assets/images/gallery/kytice/" %}` zobrazí galerii se všemi obrázky, které jsou nahrány jako soubory v `assets/images/gallery/kytice/`.
+
+Fotky v galeriích na jednotlivých stránkách se dají přidávat/mazat/upravovat v přílušných adresářích v `assets/images/gallery`. Úpravy v souborech fotek v adresářích zde se budou rovnou reflektovat v příslušnách galeriích v podstránkách. Původní myšlenka byla, že název souboru se bude ukazovat rovnou jako popisek obrázku v galerii, ale to možná někdy v budoucnu.

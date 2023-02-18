@@ -10,3 +10,5 @@ Aneta Moravcová
 <a href="mailto:plevelnaslepo@gmail.com">plevelnaslepo@gmail.com</a>
 
 <a href="https://www.facebook.com/plevelnaslepo" target="_blank">www.facebook.com/plevelnaslepo</a>
+
+<a href="https://www.instagram.com/plevel_naslepo/" target="_blank">www.instagram.com/plevel_naslepo/</a>

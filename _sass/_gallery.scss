@@ -11,6 +11,28 @@
   }
 }
 
+.carousel {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem !important;
+}
+
+@media only screen and (min-width: 700px) {
+  .carousel__viewport {
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
+  }
+}
+
+.carousel__button {
+  &.is-prev, &.is-next {
+    background: rgba(255,255,255,0.6);
+    &:disabled { display: none; }
+    svg { filter: brightness(0%) contrast(100%); }
+  }
+}
+
 .photos {
   width: 100%;
   max-width: 920px;
@@ -20,11 +42,16 @@
 }
 
 .grid-item {
-  display: inline-block;
-  max-width: calc(33.333% - 10px);
+  display: block;
 
   img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+    @media only screen and (max-width: 1000px) {
+      height: 200px;
+    }
   }
 }
