@@ -11,6 +11,6 @@ S~láskou k~její pestrosti a~proměnlivosti.
 
 ## Proč naslepo?
 
-Protože nikdy dopředu nevíte, co Vám příroda připraví za překvapení. Neslíbím Vám tedy konkrétní barvu ani druh na~objednávku. Každá kytice je originálem. Stejně jako osoba, ke~které si~najde svou cestu. Pro představu Vám však mohu vždy poskytnout obecnou informaci o~aktuální kvetoucí nabídce a~mých možnostech.
+Protože nikdy dopředu nevíte, co Vám příroda připraví za překvapení. Každá kytice je originálem. Stejně jako osoba, ke~které si~najde svou cestu.
 
 {% include gallery.html folder="assets/images/gallery/o_mne/" %}
