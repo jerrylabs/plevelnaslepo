@@ -5,7 +5,8 @@ type: page
 
 # O mně
 
-Necháte se rádi překvapit? Třeba správně zvoleným výběrem květin, které rostou všude kolem a~Vy si jich často ani nevšimnete? Využívám plevel i~zahradní květy
+Necháte se rádi překvapit?  
+Třeba správně zvoleným výběrem květin, které rostou všude kolem a~Vy si jich často ani nevšimnete? Využívám plevel i~zahradní květy
 a~tvořím z~nich kytice k~obdarování či zkrášlení Vašeho interiéru. Mé~květiny necestovaly přes~půl světa, váži z~aktuální nabídky přírody údolí Bystřice.
 S~láskou k~její pestrosti a~proměnlivosti.
 
