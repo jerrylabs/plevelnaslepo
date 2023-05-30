@@ -11,6 +11,7 @@ S~láskou k~její pestrosti a~proměnlivosti.
 
 ## Proč naslepo?
 
-Protože nikdy dopředu nevíte, co Vám příroda připraví za překvapení. Každá kytice je originálem. Stejně jako osoba, ke~které si~najde svou cestu.
+Protože nikdy dopředu nevíte, co Vám příroda připraví za překvapení.  
+Každá kytice je originálem. Stejně jako osoba, ke~které si~najde svou cestu.
 
 {% include gallery.html folder="assets/images/gallery/o_mne/" %}
