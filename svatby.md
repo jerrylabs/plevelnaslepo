@@ -7,7 +7,7 @@ Pokud chcete, aby Vás Plevel doprovázel během Vašeho dne, neváhejte se mi o
 
 {% include gallery.html folder="assets/images/gallery/svatby/" %}
 
-Ceník pro rok 2022
+Ceník pro rok 2023
 
 svatební kytice menší 1990,-    střední 2490,-    velká 2990,-
 
