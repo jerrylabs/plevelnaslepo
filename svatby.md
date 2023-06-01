@@ -23,7 +23,11 @@ korsáž pro ženicha, svědky, tatínky 250,-
 
 zdobení dortu od 490,- do 1490,-
 
-kytička na stůl aranžovaná dle velikosti od 250,- do 450,- 
+kytička na stůl aranžovaná dle velikosti od 250,- do 450,-   
+
+aranžmá na slavobránu od 2490,-  
+
+aranžmá před novomanžele od 2490,-  
 
 pronájem sady váz 990,-/dřevěných táců 490,-
 
